@@ -1,0 +1,15 @@
+accessCode: NONE
+accessWiki: NONE
+chatRetention: D7
+fallbackModel: null
+fallbackProvider: null
+kind: CHAT
+maxSteps: 12
+model: qwen3.6:latest
+permission:
+  bash: deny
+  mcp_crux_*: allow
+  webfetch: deny
+  websearch: deny
+provider: ollama
+runtime: ADVISOR
