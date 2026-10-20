@@ -1,0 +1,16 @@
+accessCode: NONE
+accessWiki: NONE
+artifact: mcp-verify-pipeline
+chatRetention: D7
+fallbackModel: null
+fallbackProvider: null
+kind: PIPELINE
+maxSteps: 12
+model: qwen3.6:latest
+permission:
+  bash: deny
+  mcp_crux_*: deny
+  webfetch: deny
+  websearch: deny
+provider: ollama
+runtime: ADVISOR
