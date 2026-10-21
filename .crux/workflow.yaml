@@ -1,0 +1,39 @@
+entryFlow: Todo
+roleFlows: 
+  Done: 
+    chatAgents: 
+      []
+    expectedGroup: completed
+    pipeline: 
+      []
+    role: tester
+  In Progress: 
+    chatAgents: 
+      []
+    expectedGroup: started
+    pipeline: 
+      - test_pipeline
+    role: tester
+  Todo: 
+    chatAgents: 
+      - test_all_tools
+    expectedGroup: unstarted
+    pipeline: 
+      []
+    role: tester
+estimateScale: 
+  - 1
+  - 2
+  - 3
+  - 5
+  - 8
+estimates: "on"
+name: mcp-verify test workflow
+roles: 
+  tester: 
+    color: "#5f9bf0"
+    description: null
+    icon: users
+    slug: tester
+    title: TESTER
+version: "5"
