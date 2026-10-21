@@ -9,6 +9,20 @@ model: qwen3.6:latest
 permission:
   bash: deny
   mcp_crux_*: allow
+  mcp_crux_attachment_upload: ask
+  mcp_crux_comment_create: ask
+  mcp_crux_link_create: ask
+  mcp_crux_link_update: ask
+  mcp_crux_sprint_add_ticket: ask
+  mcp_crux_sprint_archive: ask
+  mcp_crux_sprint_create: ask
+  mcp_crux_sprint_remove_ticket: ask
+  mcp_crux_sprint_update: ask
+  mcp_crux_ticket_add_relation: ask
+  mcp_crux_ticket_create: ask
+  mcp_crux_ticket_set_estimate: ask
+  mcp_crux_ticket_set_status: ask
+  mcp_crux_ticket_update: ask
   webfetch: deny
   websearch: deny
 provider: ollama
