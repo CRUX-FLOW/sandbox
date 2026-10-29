@@ -1,1 +1,1 @@
-Work ticket {{ticket.id}}: {{ticket.title}} ({{ticket.level}}).
+Work ticket {{ticket.id}}: {{ticket.title}} (level: {{ticket.level}}).
